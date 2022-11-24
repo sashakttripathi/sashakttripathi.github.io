@@ -1,45 +1,379 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Sashakt Tripathi</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
 
-<head>
-  <meta charset="utf-8">
-  <title>Sashakt</title>
-  <link rel="stylesheet" href="css/master.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Licorice&family=Montserrat:wght@300&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <div class="top-container">
-    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-    <h1>Hi this is Sashakt</h1>
-    <p class="description">a <span class="pro">pro</span>grammer</p>
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-    <img class="mountain-img" src="images/mountain.png" alt="mountain-img">
-  </div>
-  <div class="middle-container">
-    <div class="profile">
-      <img class="profile" src="images/profile-test.png" alt="">
-      <h2 class="profile-heading">Let's get into action!</h2>
-      <p class="profile-description">There is nothing as important as getting into action. The only thing inportant is to get into action as soon as possible</p>
+    <!-- idea: have a javascript animated loss function converging in the header? :p -->
+    <div id="dhead" class="container">
+      <div class="row">
+        <div id="dpic">
+          <img src="https://media-exp1.licdn.com/dms/image/C4D03AQH4_D83lXlU-g/profile-displayphoto-shrink_800_800/0/1633579219238?e=1674691200&v=beta&t=35kejvhfG6FzEApSfBDGRL95ePBTwuzqe0zvx_03i78" class="ppic" />
+        </div>
+        <div id="ddesc">
+          <h1>Sashakt Tripathi</h1>
+          <h2>I like to train deep neural nets on large datasets 🧠🤖💥</h2>
+          <div id="dico">
+            <a href="https://github.com/sashakttripathi"><img src="assets/cgithub.svg" class="iico"/></a>
+            <img src="assets/cemail.svg" style="cursor: pointer;" class="iico" id="iemail" title="click to reveal" />
+          </div>
+          <div id="demail"></div> <!-- will reveal email -->
+        </div>
+      </div>
     </div>
-    <div class="contact-me">
-      <h2 class="Touch">Get In Touch</h2>
-      <h3 class="TouchHeading">To get in touch is a really nice thing and one must try to do it</h3>
-      <p class="TouchDescription">To get in touch is a really nice thing and one must try to do itTo get in touch is a really nice thing and one must try to do itTo get in touch is a really nice thing and one must try to do it</p>
-      <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+
+    <hr>
+    <h1 class="centerthetext">Experience</h1>
+    <div style="background-color: rgb(255, 255, 255); padding-top: 1px; margin-top: 10px;">
+    <div id="history" class="container">
+        <div class="entry row">
+          <div class="timespan">
+            2017 - 2022
+          </div>
+          <div class="ico">
+            <div class="entry-dot"></div>
+            <img src="assets/small box.png" />
+          </div>
+          <div class="desc">
+            <div class="htxt">
+              I was the Sr. Director of AI at Tesla, where I led the computer vision team of <a href="https://www.tesla.com/autopilot">Tesla Autopilot</a>. This includes in-house data labeling, neural network training, the science of making it work, and deployment in production running on our custom inference chip. Today, the Autopilot increases the safety and convenience of driving, but the team's goal is to develop and deploy <a href="https://www.youtube.com/watch?v=tlThdr3O5Qo">Full Self-Driving</a> to our rapidly growing fleet of millions of cars. Our Aug 2021 <a href="https://youtu.be/j0z4FweCy4M?t=2900">Tesla AI Day</a> provides the most detailed and up-to-date overview of this effort.
+            </div>
+            <div class="hassets" style="height:304px; margin: 20px 0 10px 0;">
+              <div class="hasset" style="top: 0; left: 0; width: 50%;">
+                <video controls="" preload="metadata" muted="" loop="" playsinline="" class="video" width="100%">
+                  <source src="https://www.tesla.com/sites/default/files/images/careers/autopilot/network.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="hasset" style="top: 0; left: 50.5%; width: 25%;"><a href="https://www.youtube.com/watch?v=hx7BXih7zx8"><img src="assets/scaledml2020.png" width="100%" /></a></div>
+              <div class="hasset" style="top: 0; left: 76%;"><a href="https://www.youtube.com/watch?v=Ucp0TTmvqOE&feature=youtu.be&t=6678"><img src="assets/auto_2.38.42.png" width="185" /></a></div>
+              <div class="hasset" style="top: 44.5%; left: 50.5%; width: 25%;"><a href="https://slideslive.com/38917690/multitask-learning-in-the-wilderness"><img src="assets/multitask.png" width="100%" /></a></div>
+              <div class="hasset" style="top: 67.5%; left: 76%;"><a href="https://www.youtube.com/watch?v=oBklltKXtDE"><img src="assets/software20_narrow.png" width="185" /></a></div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="entry row">
+          <div class="timespan">
+            2015 - 2017
+          </div>
+          <div class="ico">
+            <div class="entry-dot"></div>
+            <img src="assets/small box.png" />
+          </div>
+          <div class="desc">
+            I was a research scientist and a founding member at <a href="https://openai.com/">OpenAI</a>.
+          </div>
+        </div>
+  
+        <div class="entry row">
+          <div class="timespan">
+            2011 - 2015
+          </div>
+          <div class="ico">
+            <div class="entry-dot"></div>
+            <img src="assets/small box.png" />
+          </div>
+          <div class="desc">
+            My PhD was focused on convolutional/recurrent neural networks and their applications in computer vision, natural language processing and their intersection. My adviser was <a href="http://vision.stanford.edu/">Fei-Fei Li</a> at the Stanford Vision Lab and I also had the pleasure to work with <a href="https://ai.stanford.edu/users/koller/">Daphne Koller</a>, <a href="http://www.robotics.stanford.edu/~ang/contact.html">Andrew Ng</a>, <a href="http://robots.stanford.edu/">Sebastian Thrun</a> and <a href="http://vladlen.info/">Vladlen Koltun</a> along the way during the first year rotation program.
+  
+            <br><br>
+            I designed and was the primary instructor for the first deep learning class Stanford - <a href="http://cs231n.stanford.edu/">CS 231n: Convolutional Neural Networks for Visual Recognition</a>. The class became one of the largest at Stanford and has grown from 150 enrolled in 2015 to 330 students in 2016, and 750 students in 2017.
+  
+            <br><br>
+            Along the way I squeezed in 3 internships at (a baby) Google Brain in 2011 working on learning-scale unsupervised learning from videos, then again in Google Research in 2013 working on large-scale supervised learning on YouTube videos, and finally at DeepMind in 2015 working on the deep reinforcement learning team.
+          </div>
+        </div>
+  
+        <!-- <div class="entry row">
+          <div class="timespan">
+            2009 - 2011
+          </div>
+          <div class="ico">
+            <div class="entry-dot"></div>
+            <img src="assets/small box.png" style="max-width: 32px;"/>
+          </div>
+          <div class="desc">
+            MSc at the University of British Columbia where I worked with <a href="https://www.cs.ubc.ca/~van/">Michiel van de Panne</a> on learning controllers for physically-simulated figures, i.e., machine-learning for agile robotics but in a physical simulation.
+          </div>
+        </div>
+  
+        <div class="entry row">
+          <div class="timespan">
+            2005 - 2009
+          </div>
+          <div class="ico">
+            <div class="entry-dot"></div>
+            <img src="assets/small box.png" style="max-width: 32px;"/>
+          </div>
+          <div class="desc">
+            BSc at the University of Toronto with a double major in computer science and physics and a minor in math. This is where I first got into deep learning, attending <a href="https://www.cs.toronto.edu/~hinton/">Geoff Hinton's</a> class and reading groups.
+          </div>
+        </div> -->
+      </div>
     </div>
-  </div>
+    <hr>
+    <h1 class="centerthetext">Education</h1>
+    <div style="background-color: rgb(255, 255, 255); padding-top: 1px; margin-top: 10px;">
+      <div id="history" class="container">
+        <div class="entry row">
+          <div class="timespan">
+            2017 - 2022
+          </div>
+          <div class="ico">
+            <div class="entry-dot"></div>
+            <img src="assets/small box.png" />
+          </div>
+          <div class="desc">
+            <div class="htxt">
+              I was the Sr. Director of AI at Tesla, where I led the computer vision team of <a href="https://www.tesla.com/autopilot">Tesla Autopilot</a>. This includes in-house data labeling, neural network training, the science of making it work, and deployment in production running on our custom inference chip. Today, the Autopilot increases the safety and convenience of driving, but the team's goal is to develop and deploy <a href="https://www.youtube.com/watch?v=tlThdr3O5Qo">Full Self-Driving</a> to our rapidly growing fleet of millions of cars. Our Aug 2021 <a href="https://youtu.be/j0z4FweCy4M?t=2900">Tesla AI Day</a> provides the most detailed and up-to-date overview of this effort.
+            </div>
+            <div class="hassets" style="height:304px; margin: 20px 0 10px 0;">
+              <div class="hasset" style="top: 0; left: 0; width: 50%;">
+                <video controls="" preload="metadata" muted="" loop="" playsinline="" class="video" width="100%">
+                  <source src="https://www.tesla.com/sites/default/files/images/careers/autopilot/network.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="hasset" style="top: 0; left: 50.5%; width: 25%;"><a href="https://www.youtube.com/watch?v=hx7BXih7zx8"><img src="assets/scaledml2020.png" width="100%" /></a></div>
+              <div class="hasset" style="top: 0; left: 76%;"><a href="https://www.youtube.com/watch?v=Ucp0TTmvqOE&feature=youtu.be&t=6678"><img src="assets/auto_2.38.42.png" width="185" /></a></div>
+              <div class="hasset" style="top: 44.5%; left: 50.5%; width: 25%;"><a href="https://slideslive.com/38917690/multitask-learning-in-the-wilderness"><img src="assets/multitask.png" width="100%" /></a></div>
+              <div class="hasset" style="top: 67.5%; left: 76%;"><a href="https://www.youtube.com/watch?v=oBklltKXtDE"><img src="assets/software20_narrow.png" width="185" /></a></div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="entry row">
+          <div class="timespan">
+            2015 - 2017
+          </div>
+          <div class="ico">
+            <div class="entry-dot"></div>
+            <img src="assets/small box.png" />
+          </div>
+          <div class="desc">
+            I was a research scientist and a founding member at <a href="https://openai.com/">OpenAI</a>.
+          </div>
+        </div>
+  
+        <div class="entry row">
+          <div class="timespan">
+            2011 - 2015
+          </div>
+          <div class="ico">
+            <div class="entry-dot"></div>
+            <img src="assets/small box.png" />
+          </div>
+          <div class="desc">
+            My PhD was focused on convolutional/recurrent neural networks and their applications in computer vision, natural language processing and their intersection. My adviser was <a href="http://vision.stanford.edu/">Fei-Fei Li</a> at the Stanford Vision Lab and I also had the pleasure to work with <a href="https://ai.stanford.edu/users/koller/">Daphne Koller</a>, <a href="http://www.robotics.stanford.edu/~ang/contact.html">Andrew Ng</a>, <a href="http://robots.stanford.edu/">Sebastian Thrun</a> and <a href="http://vladlen.info/">Vladlen Koltun</a> along the way during the first year rotation program.
+  
+            <br><br>
+            I designed and was the primary instructor for the first deep learning class Stanford - <a href="http://cs231n.stanford.edu/">CS 231n: Convolutional Neural Networks for Visual Recognition</a>. The class became one of the largest at Stanford and has grown from 150 enrolled in 2015 to 330 students in 2016, and 750 students in 2017.
+  
+            <br><br>
+            Along the way I squeezed in 3 internships at (a baby) Google Brain in 2011 working on learning-scale unsupervised learning from videos, then again in Google Research in 2013 working on large-scale supervised learning on YouTube videos, and finally at DeepMind in 2015 working on the deep reinforcement learning team.
+          </div>
+        </div>
+  
+        <!-- <div class="entry row">
+          <div class="timespan">
+            2009 - 2011
+          </div>
+          <div class="ico">
+            <div class="entry-dot"></div>
+            <img src="assets/small box.png" style="max-width: 32px;"/>
+          </div>
+          <div class="desc">
+            MSc at the University of British Columbia where I worked with <a href="https://www.cs.ubc.ca/~van/">Michiel van de Panne</a> on learning controllers for physically-simulated figures, i.e., machine-learning for agile robotics but in a physical simulation.
+          </div>
+        </div>
+  
+        <div class="entry row">
+          <div class="timespan">
+            2005 - 2009
+          </div>
+          <div class="ico">
+            <div class="entry-dot"></div>
+            <img src="assets/small box.png" style="max-width: 32px;"/>
+          </div>
+          <div class="desc">
+            BSc at the University of Toronto with a double major in computer science and physics and a minor in math. This is where I first got into deep learning, attending <a href="https://www.cs.toronto.edu/~hinton/">Geoff Hinton's</a> class and reading groups.
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <hr>
+    <div style="background-color: rgb(255, 255, 255); padding-top: 1px; margin-top: 10px;">
+      <div id="featured-talks" class="container">
+        <!-- <div class="ctitle">Awards</div> -->
+        <h1 class="centerthetext">Awards</h1>
+        <div class="row">
+          <div class="card">
+            <a href="https://www.therobotbrains.ai/who-is-andrej-karpathy">
+              <div class="ccimg"><img src="assets/robotbrains.jpg" /></div>
+            </a>
+            <div class="cdesc">Robot Brains podcast with Pieter Abbeel</div>
+          </div>
+          <div class="card">
+            <a href="https://youtu.be/j0z4FweCy4M?t=2900">
+              <div class="ccimg"><img src="assets/aiday.jpg" /></div>
+            </a>
+            <div class="cdesc">Tesla AI Day 2021</div>
+          </div>
+          <div class="card">
+            <a href="https://www.youtube.com/watch?v=g6bOwQdCJrc">
+              <div class="ccimg"><img src="assets/cvpr2021.png" /></div>
+            </a>
+            <div class="cdesc">AI for Full Self-Driving @ CVPR 2021</div>
+          </div>
+          <div class="card">
+            <a href="https://www.youtube.com/watch?v=hx7BXih7zx8">
+              <div class="ccimg"><img src="assets/scaledml2020.png" /></div>
+            </a>
+            <div class="cdesc">AI for Full Self-Driving @ ScaledML 2020</div>
+          </div>
+          <div class="card">
+            <a href="https://www.youtube.com/watch?v=Ucp0TTmvqOE&feature=youtu.be&t=6678">
+              <div class="ccimg"><img src="assets/auto_2.38.42_narrow.png" /></div>
+            </a>
+            <div class="cdesc">Tesla Autonomy Day 2019</div>
+          </div>
+          <div class="card">
+            <a href="https://slideslive.com/38917690/multitask-learning-in-the-wilderness">
+              <div class="ccimg"><img src="assets/multitask.png" /></div>
+            </a>
+            <div class="cdesc">Multi-Task Learning in the Wilderness @ ICML 2019</div>
+          </div>
+          <div class="card">
+            <a href="https://www.youtube.com/watch?v=oBklltKXtDE">
+              <div class="ccimg"><img src="assets/pytorch_devcon_2019.jpg" /></div>
+            </a>
+            <div class="cdesc">PyTorch at Tesla @ PyTorch DevCon 2019</div>
+          </div>
+          <div class="card">
+            <a href="https://www.youtube.com/watch?v=y57wwucbXR8">
+              <div class="ccimg"><img src="assets/software20.png" /></div>
+            </a>
+            <div class="cdesc">Building the Software 2.0 stack @ Spark-AI 2018</div>
+          </div>
 
+          <div class="card">
+            <a href="http://videos.re-work.co/videos/344-interview-with-andrej-karpathy-openai">
+              <div class="ccimg"><img src="assets/rework.png" /></div>
+            </a>
+            <div class="cdesc">2017 RE•WORK Summit with Nathan Benaich</div>
+          </div>
 
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/">Twitter</a>
-    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-    <p>© Sashakt Tripathi.</p>
-  </div>
+          <div class="card">
+            <a href="https://www.youtube.com/watch?v=xxu4IqwKw0w">
+              <div class="ccimg"><img src="assets/deeplearningai.png" /></div>
+            </a>
+            <div class="cdesc">2017 "Heroes of Deep Learning" with Andrew Ng</div>
+          </div>
 
-</body>
+          <div class="card">
+            <a href="https://www.youtube.com/watch?v=tqrcjHuNdmQ">
+              <div class="ccimg"><img src="assets/drlbootcamp.png" /></div>
+            </a>
+            <div class="cdesc">2017 Deep RL Bootcamp with Pieter Abbeel et al</div>
+          </div>
 
+          <div class="card">
+            <a href="https://www.youtube.com/watch?v=u6aEYuemt0M">
+              <div class="ccimg"><img src="assets/convlecture.png" /></div>
+            </a>
+            <div class="cdesc">2016 Bay Area Deep Learning School: CNNs</div>
+          </div>
+
+          <div class="card">
+            <a href="https://www.youtube.com/watch?v=CYwK8bQprBY">
+              <div class="ccimg"><img src="assets/cvpr2016_talk.jpg" /></div>
+            </a>
+            <div class="cdesc">Deep Learning Workshop @ CVPR 2016</div>
+          </div>
+
+          <div class="card">
+            <a href="https://www.youtube.com/watch?v=qPcCk1V1JO8">
+              <div class="ccimg"><img src="assets/rework_talk.jpg" /></div>
+            </a>
+            <div class="cdesc">RE•WORK Deep Learning Summit 2016</div>
+          </div>
+
+          <div class="card">
+            <a href="https://www.youtube.com/watch?v=8AnV7xAvpLQ&feature=youtu.be&t=4m15s">
+              <div class="ccimg"><img src="assets/nvidia_gtc_2015.jpg" /></div>
+            </a>
+            <div class="cdesc">NVIDIA GTC Keynote 2015 with Jensen Huang</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div id="pet-projects" class="container">
+      <!-- <div class="ctitle">pet projects</div> -->
+      <h1 class="centerthetext">Pet projects</h1>
+      <div class="project">
+        <div class="pico"><img src="assets/puppy.jpg" /></div>
+        <div class="pdesc"><a href="https://github.com/karpathy/micrograd">micrograd</a> is a tiny scalar-valued autograd engine (with a bite! :)). It implements backpropagation (reverse-mode autodiff) over a dynamically built DAG and a small neural networks library on top of it with a PyTorch-like API.</div>
+        <div class="pend"></div>
+      </div>
+
+      <div class="project">
+        <div class="pico"><img src="assets/charseq.jpeg" /></div>
+        <div class="pdesc"><a href="https://github.com/karpathy/char-rnn">char-rnn</a> was a Torch character-level language model built out of LSTMs/GRUs/RNNs. Related to this also see the <a href="http://karpathy.github.io/2015/05/21/rnn-effectiveness/">Unreasonable Effectiveness of Recurrent Neural Networks</a> blog post, or the <a href="https://gist.github.com/karpathy/d4dee566867f8291f086">minimal RNN gist</a>.</div>
+        <div class="pend"></div>
+      </div>
+
+      <div class="project">
+        <div class="pico"><img src="assets/arxiv_sanity.jpg" /></div>
+        <div class="pdesc"><a href="https://github.com/karpathy/arxiv-sanity-preserver">arxiv-sanity</a> tames the overwhelming flood of papers on Arxiv. It allows researchers to discover relevant papers, search/sort by similarity, see recent/popular papers, and get recommendations. Deployed live at <a href="http://www.arxiv-sanity.com/">arxiv-sanity.com</a>. My obsession with meta research involved many more projects over the years, e.g. see <a href="https://cs.stanford.edu/people/karpathy/nipspreview/">pretty NIPS 2020 papers</a>, <a href="https://cs.stanford.edu/people/karpathy/researchlei/">research lei</a>, <a href="https://cs.stanford.edu/people/karpathy/scholaroctopus/">scholaroctopus</a>, and <a href="https://github.com/karpathy/covid-sanity">biomed-sanity</a>. Update: my most revent <a href="https://arxiv-sanity-lite.com">arxiv-sanity-lite</a> from-scratch rewrite is much better.</div>
+        <div class="pend"></div>
+      </div>
+
+      <div class="project">
+        <div class="pico"><img src="assets/captioning.jpg" /></div>
+        <div class="pdesc"><a href="https://github.com/karpathy/neuraltalk2">neuraltalk2</a> was an early image captioning project in (lua)Torch. Also see our later extension with Justin Johnson to <a href="https://github.com/jcjohnson/densecap">dense captioning</a>.</div>
+        <div class="pend"></div>
+      </div>
+
+      <div class="project">
+        <div class="pico"><img src="assets/imagenet.jpg" /></div>
+        <div class="pdesc">I am sometimes jokingly referred to as the reference human for ImageNet because I competed against an early ConvNet on categorizing images into 1,000 classes. This required a bunch of custom tooling and a lot of learning about dog breeds. See the blog post <a href="http://karpathy.github.io/2014/09/02/what-i-learned-from-competing-against-a-convnet-on-imagenet/">"What I learned from competing against a ConvNet on ImageNet"</a>. Also a <a href="https://www.wired.com/2015/01/karpathy/">Wired article</a>.</div>
+        <div class="pend"></div>
+      </div>
+
+      <div class="project">
+        <div class="pico"><img src="assets/convnetlogo3.png" /></div>
+        <div class="pdesc"><a href="https://cs.stanford.edu/people/karpathy/convnetjs/">ConvNetJS</a> is a deep learning library written from scratch entirely in Javascript. This enables nice web-based demos that train convolutional neural networks (or ordinary ones) entirely in the browser. Many web demos included. I did an interview with Data Science Weekly about the library and some of its back story <a href="https://www.datascienceweekly.org/data-scientist-interviews/training-deep-learning-models-browser-andrej-karpathy-interview">here</a>. Also see my later followups such as <a href="https://github.com/karpathy/tsnejs">tSNEJS</a>, <a href="https://github.com/karpathy/reinforcejs">REINFORCEjs</a>, or <a href="https://github.com/karpathy/reinforcejs">recurrentjs</a>, <a href="https://cs.stanford.edu/people/karpathy/gan/">GANs in JS</a>.</div>
+        <div class="pend"></div>
+      </div>
+
+      <div class="project">
+        <div class="pico"><img src="assets/ulogme-small.jpg" /></div>
+        <div class="pdesc">How productive were you today? How much code have you written? Where did your time go? For a while I was really into tracking my productivity, and since I didn't like that RescueTime uploads your (very private) computer usage statistics to a cloud I wrote my own, privacy-first, tracker - <a href="https://github.com/karpathy/ulogme">ulogme</a>! That was fun.</div>
+        <div class="pend"></div>
+      </div>
+
+      <div class="project">
+        <div class="pico"><img src="assets/misc_pile.jpg" /></div>
+        <div class="pdesc">misc: I built a lot of other random stuff over time. <a href="https://www.youtube.com/watch?v=VaW1dmqRE0o">Rubik's cube color extractor</a>, <a href="https://sites.google.com/site/scriptbotsevo/">predator prey neuroevolutionary multiagent simulations</a>, <a href="https://www.youtube.com/watch?v=2kupe2ZKK58">more of those</a>, <a href="https://www.youtube.com/watch?v=6LmQS4DJl6c">sketcher bots</a>, games for computer game competitions <a href="https://www.youtube.com/watch?v=EH-xVtuv8iI">#1</a>, <a href="https://www.youtube.com/watch?v=mcL1n7a90rQ">#2</a>, <a href="https://www.youtube.com/watch?v=LAtEVB3Mhyk">#3</a>, random <a href="https://www.youtube.com/watch?v=yqdfCQ5og3E">computer graphics things</a>, <a href="https://www.youtube.com/watch?v=mSaO0Ul_55c">Tetris AI</a>, <a href="https://code.google.com/archive/p/nplayertetris/">multiplayer coop tetris</a>, etc.</div>
+        <div class="pend"></div>
+      </div>
+    </div>
+    <!-- <hr> -->
+    <!-- <br><br><br><br><br><br><br><br><br><br><br> -->
+
+    <!-- attempt hiding from spambots :p -->
+    <script type="text/javascript">
+      var e_is_shown = false;
+      document.getElementById('iemail').addEventListener("click", function(){
+        let demail = document.getElementById('demail');
+        demail.innerHTML ='sashakt@elixarsystems.com';// demail.innerHTML = 'andrej.karpathy' + ' _at_ ' + 'gmail' + '.com';
+        demail.style.opacity = e_is_shown ? 0 : 1;
+        e_is_shown = !e_is_shown;
+      })
+    </script>
+  </body>
 </html>
