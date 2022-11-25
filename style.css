@@ -119,13 +119,13 @@ hr {
 }
 .ico-empty img{
     border-radius: 5px;
-    width: 110%;
+    width: 80px;
     max-width: 100px;
     margin-left: 10px;  
 }
 .ico img {
     border-radius: 5px;
-    width: 100%;
+    width: 80px;
     max-width: 100px;
     margin-left: 10px;
 }
