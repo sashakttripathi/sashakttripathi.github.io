@@ -12,6 +12,12 @@ body {
     font-size: 50px;
     padding-bottom: 30px;;
 }
+.para-content{
+    font-size: 20px;
+    padding-top: 0;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
 /* Layout */
 .container {
     margin-left: auto;
@@ -28,7 +34,10 @@ body {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 }
-
+.school-container{
+    padding-left: 80px;
+    padding-bottom: 30px;
+}
 /* Props */
 #dhead {
     margin-top: 20px;
@@ -103,10 +112,21 @@ hr {
     border-left: 2px solid #cfcfcf;
     position: relative;
 }
+.ico-empty{
+    grid-column: span 1;
+    vertical-align: top;
+    position: relative;    
+}
+.ico-empty img{
+    border-radius: 5px;
+    width: 110%;
+    max-width: 100px;
+    margin-left: 10px;  
+}
 .ico img {
     border-radius: 5px;
     width: 100%;
-    max-width: 80px;
+    max-width: 100px;
     margin-left: 10px;
 }
 .desc {
@@ -115,8 +135,15 @@ hr {
     font-size: 17px;
     padding-left: 20px;
     padding-bottom: 20px;
+    padding-top: 0px;
 }
-.entry {
+.desc-school {
+    grid-column: span 10;
+    vertical-align: middle;
+    font-size: 17px;
+    padding-left: 20px;
+    /* padding-bottom: 20px; */
+    padding-top: 12px;
 }
 .entry-dot {
     position: absolute;
@@ -130,16 +157,45 @@ hr {
 }
 .timespan {
     /* grid-column: span 1; */
+    font-size: 20px;
+    text-align: left;
+    padding-left: 25px;
+    margin-top: -5px;
+    color: #bbb;
+}
+.timespan-sub-school {
+    /* grid-column: span 1; */
+    font-size: 20px;
+    text-align: left;
+    padding-left: 25px;
+    margin-top: 0px;
+    color: #bbb;
+}
+.timespan-exp {
+    /* grid-column: span 1;
     font-size: 14px;
     text-align: left;
-    /* padding: 5px; */
+    padding: 5px;
+    color: #bbb; */
+    font-size: 20px;
+    text-align: left;
+    padding-left: 0px;
+    margin-top: -5px;
     color: #bbb;
+}
+.timespan-sub-title{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 25px;
+    color: rgb(64, 64, 64);
+
 }
 .timespan-title{
     font-size: 20px;
     text-align: left;
-    /* padding: 5px; */
+    padding-left: 25px;
     color: rgb(23, 23, 23);
+    font-weight: 550;
 }
 .hassets {
     position: relative;
@@ -218,7 +274,9 @@ hr {
     clear: both;
 }
 .pico img {
-    height: 80px;
+    /* height: 80px; */
+    max-height: 80px;
+    max-width: 80px;
     border-radius: 5px;
     border: 1px solid #999;
 }
