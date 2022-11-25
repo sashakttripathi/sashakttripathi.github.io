@@ -129,11 +129,17 @@ hr {
     border: 2px solid white;
 }
 .timespan {
-    grid-column: span 1;
+    /* grid-column: span 1; */
     font-size: 14px;
-    text-align: right;
-    padding-right: 5px;
+    text-align: left;
+    /* padding: 5px; */
     color: #bbb;
+}
+.timespan-title{
+    font-size: 20px;
+    text-align: left;
+    /* padding: 5px; */
+    color: rgb(23, 23, 23);
 }
 .hassets {
     position: relative;
