@@ -310,13 +310,14 @@ hr {
     }
     .timespan-exp-small {
         font-size: 20px;
-        text-align: right;
+        text-align: left;
         padding-left: 0px;
         margin-top: -60px;
         padding-bottom: 50px ;
         margin-left: 80px;
+        padding-left: 100px;
         color: #bbb;
-        width: 150px;
+        width: 200px;
         /* font-size: 0px;
         text-align: center;
         padding: 0px;
