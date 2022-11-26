@@ -162,6 +162,7 @@ hr {
     padding-left: 25px;
     margin-top: -5px;
     color: #bbb;
+    width: 50px;
 }
 .timespan-sub-school {
     /* grid-column: span 1; */
@@ -182,6 +183,7 @@ hr {
     padding-left: 0px;
     margin-top: -5px;
     color: #bbb;
+    width: 80px;
 }
 .timespan-sub-title{
     font-size: 20px;
@@ -253,6 +255,15 @@ hr {
     .cdesc {
         font-size: 14px;
         padding-bottom: 10px;
+    }
+    .ico {
+        grid-column: span 2;
+        vertical-align: top;
+        border-left: 0px solid #cfcfcf;
+        position: relative;
+    }
+    .para-content{
+        padding-left: 80px;
     }
 }
 #pet-projects .row {
