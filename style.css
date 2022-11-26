@@ -34,6 +34,10 @@ body {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 }
+.row-exp {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
 .school-container{
     padding-left: 80px;
     padding-bottom: 30px;
@@ -185,6 +189,27 @@ hr {
     color: #bbb;
     width: 80px;
 }
+.timespan-exp {
+    /* grid-column: span 1;
+    font-size: 14px;
+    text-align: left;
+    padding: 5px;
+    color: #bbb; */
+    font-size: 20px;
+    text-align: left;
+    padding-left: 0px;
+    margin-top: -5px;
+    color: #bbb;
+    width: 80px;
+}
+.timespan-exp-small {
+    font-size: 0px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color: #bbb;
+    width: 0px;
+}
 .timespan-sub-title{
     font-size: 20px;
     text-align: left;
@@ -263,7 +288,40 @@ hr {
         position: relative;
     }
     .para-content{
-        padding-left: 80px;
+        padding-left: 0px;
+    }
+    .school-container{
+        padding-left: 0;
+    }
+    .timespan-exp{
+        width: 0;
+        font-size: 0;
+    }
+    .ico img{
+        margin-left: 0;;
+    }
+    .entry-dot{
+        width: 0px;
+        height: 0px; 
+    }
+    .row-exp img{
+        margin-left: -30%;
+    }
+    .timespan-exp-small {
+        font-size: 20px;
+        text-align: right;
+        padding-left: 0px;
+        margin-top: -60px;
+        padding-bottom: 50px ;
+        margin-left: 80px;
+        color: #bbb;
+        width: 150px;
+        /* font-size: 0px;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        color: #bbb;
+        width: 0px; */
     }
 }
 #pet-projects .row {
