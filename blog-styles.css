@@ -1,31 +1,44 @@
-/* Blog header styles */
-header {
-    background-color: #e6e6e6;
-    padding: 10px;
-    text-align: center;
+/* Add vibrant background */
+body {
+    background-color: #f4f4f4;
+    ...
 }
 
-/* Blog navigation styles */
-nav {
-    margin-bottom: 20px;
+/* Add vibrant text color */
+.centerthetext {
+    color: #ff4500;
+    ...
 }
 
-    nav a {
-        margin-right: 10px;
-        text-decoration: none;
-        color: green;
+/* Add hover effect */
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+/* Add transition */
+#demail {
+    transition: opacity 0.7s, color 0.5s;
+}
+
+    #demail:hover {
+        color: #ff4500;
     }
 
-/* Blog main content styles */
-main {
-    margin-top: 20px;
+/* Add gradient */
+.container {
+    background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+    ...
 }
 
-.blog-list {
-    list-style-type: disc;
-    padding-left: 20px;
+/* Add box shadow to images */
+#dpic img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    ...
 }
 
-    .blog-list li {
-        margin-bottom: 10px;
-    }
+/* Add vibrant borders */
+.ico img {
+    border: 2px solid #ff4500;
+    ...
+}
