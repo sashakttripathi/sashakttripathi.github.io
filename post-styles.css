@@ -1,0 +1,27 @@
+/* Make body take up full viewport */
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Define central container */
+.container {
+    width: 60%; /* or 800px, or whatever dimension you want */
+    height: 80%; /* or 600px, or whatever dimension you want */
+    background-color: #f4f4f4;
+    position: relative; /* so we can absolutely position child elements */
+}
+
+/* Center content within container */
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* additional styling */
+}
