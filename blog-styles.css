@@ -1,0 +1,31 @@
+/* Blog header styles */
+header {
+    background-color: #e6e6e6;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Blog navigation styles */
+nav {
+    margin-bottom: 20px;
+}
+
+    nav a {
+        margin-right: 10px;
+        text-decoration: none;
+        color: green;
+    }
+
+/* Blog main content styles */
+main {
+    margin-top: 20px;
+}
+
+.blog-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+    .blog-list li {
+        margin-bottom: 10px;
+    }
